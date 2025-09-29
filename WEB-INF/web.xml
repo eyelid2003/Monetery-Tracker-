@@ -1,0 +1,71 @@
+<web-app>
+    <servlet>
+        <servlet-name>Asking</servlet-name>
+        <servlet-class>Asking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Signup</servlet-name>
+        <servlet-class>Signup</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>Expense</servlet-name>
+        <servlet-class>Expense</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>Income</servlet-name>
+        <servlet-class>Income</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateIncome</servlet-name>
+        <servlet-class>UpdateIncome</servlet-class>   
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateExpence</servlet-name>
+        <servlet-class>UpdateExpence</servlet-class>   
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>Asking</servlet-name>
+        <url-pattern>/Asking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Signup</servlet-name>
+        <url-pattern>/Signup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Expense</servlet-name>
+        <url-pattern>/Expense</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Income</servlet-name>
+        <url-pattern>/Income</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateIncome</servlet-name>
+        <url-pattern>/UpdateIncome</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateExpence</servlet-name>
+        <url-pattern>/UpdateExpence</url-pattern>
+    </servlet-mapping>
+</web-app>
